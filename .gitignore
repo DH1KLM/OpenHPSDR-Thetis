@@ -1,4 +1,3 @@
-Project Files/bin
 Project Files/build
 Project Files/Source/Console/obj
 Project Files/Source/Midi2Cat/obj
@@ -11,3 +10,12 @@ Project Files/lib/WinFormsUI/obj
 Project Files/Source/.vs
 Project Files/Source/Thetis-Installer/obj
 Project Files/Source/Thetis-Installer/bin
+Project Files/bin/Installers/*.wixpdb
+Project Files/bin/x64/Release/*.iobj
+Project Files/bin/x64/Release/*.ipdb
+Project Files/bin/x64/Release/*.config
+Project Files/bin/x64/Release/*.pdb
+Project Files/bin/x86/Release/*.iobj
+Project Files/bin/x86/Release/*.ipdb
+Project Files/bin/x86/Release/*.config
+Project Files/bin/x86/Release/*.pdb

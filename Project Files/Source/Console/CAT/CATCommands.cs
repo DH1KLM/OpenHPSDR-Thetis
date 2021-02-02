@@ -2835,13 +2835,13 @@ namespace Thetis
             if (radio == "HPSDR" || radio == "HERMES")
             {
                 if (alex_att) return "1";
-                else return "0"; // did not return 0 if HERMES is selected and alex_att is turned of. In Powersdr it is working without problems
+                else return "0"; // did not return 0 if HERMES is selected and alex_att is turned of. In Powersdr it is working without problems DH1KLM
             }
 
             else if (radio == "ANAN10" || radio == "ANAN10E")
                 return "0";
 
-            else if (radio == "ANAN100" || radio == "ANAN100B" || radio == "ANAN100D" || radio == "ANAN200D" || radio == "ANAN7000D" || radio == "ANAN8000D") // added ANAN7000D to list
+            else if (radio == "ANAN100" || radio == "ANAN100B" || radio == "ANAN100D" || radio == "ANAN200D" || radio == "ANAN7000D" || radio == "ANAN8000D") // added ANAN7000D to list DH1KLM
                 return "1";
             else
                 return parser.Error1;
